@@ -1,9 +1,9 @@
 # Generated from the immutable native release manifest. Do not edit checksums by hand.
-# Source commit: e81469b4554d5c209081df72d0350ffe8e59eca7
+# Source commit: 327bfc9089f1e859acea9cb834e7f2ce50f17c86
 class UrNexus < Formula
   desc "Terminal coding agent with a bundled runtime and local-first provider support"
   homepage "https://github.com/Maitham16/UR"
-  version "1.86.2"
+  version "1.87.0"
   license :cannot_represent
 
   # Keep upstream native library IDs and resource-integrity hashes intact.
@@ -14,26 +14,26 @@ class UrNexus < Formula
     depends_on macos: :sequoia
     on_arm do
       depends_on arch: :arm64
-      url "https://github.com/Maitham16/UR/releases/download/v1.86.2/ur-1.86.2-darwin-arm64.tar.gz"
-      sha256 "6688e46c5d8649243d3aca8277955f08fcba5e410980ec66eb92b85d2cf663aa"
+      url "https://github.com/Maitham16/UR/releases/download/v1.87.0/ur-1.87.0-darwin-arm64.tar.gz"
+      sha256 "091c67bf40918978c3272774e3af28b003e2be05983427f500620e759dac252a"
     end
     on_intel do
       depends_on arch: :x86_64
-      url "https://github.com/Maitham16/UR/releases/download/v1.86.2/ur-1.86.2-darwin-x64.tar.gz"
-      sha256 "87abc3c19a748722d0942e467c49dd488efb2c819af3a1bebc4380ba63a2f3fc"
+      url "https://github.com/Maitham16/UR/releases/download/v1.87.0/ur-1.87.0-darwin-x64.tar.gz"
+      sha256 "8634c38c6cd7914851f13c5e1a4aab8e5de869b21a26b9ebee4a334e40512e3d"
     end
   end
 
   on_linux do
     on_arm do
       depends_on arch: :arm64
-      url "https://github.com/Maitham16/UR/releases/download/v1.86.2/ur-1.86.2-linux-arm64.tar.gz"
-      sha256 "d5b81f07c2b29b28ac79ab78f16fa3bfd1da04787195065f3d369f680527ff00"
+      url "https://github.com/Maitham16/UR/releases/download/v1.87.0/ur-1.87.0-linux-arm64.tar.gz"
+      sha256 "aeab49d2c3187d877d23617b38e0059ca43203b1dd06bee1f5e5f0f7d8c06bdf"
     end
     on_intel do
       depends_on arch: :x86_64
-      url "https://github.com/Maitham16/UR/releases/download/v1.86.2/ur-1.86.2-linux-x64.tar.gz"
-      sha256 "03cb8d1d7fc1724667f0446632ddffed9ffc4f8aa5cd31e8eab60b7f34e79b04"
+      url "https://github.com/Maitham16/UR/releases/download/v1.87.0/ur-1.87.0-linux-x64.tar.gz"
+      sha256 "6d34c32dd8978722ca44ba45d4f8e66c491701d145e99c8b5d7d1228b7dfa9e3"
     end
   end
 
