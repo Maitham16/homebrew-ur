@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "version": "1.87.3",
-  "sourceCommit": "f683cd44a135b65062fa1871c7a6539c264c2da4",
+  "version": "1.87.4",
+  "sourceCommit": "6ed1427f25bdfade4e588a04ce9498ba15fa8444",
   "platforms": {
     "darwin-arm64": {
-      "file": "ur-1.87.3-darwin-arm64.tar.gz",
-      "sha256": "534c0cf76ce154c536f99a671aaaecfe6b47ce06067df22207b4fd133ee33376",
-      "size": 55594028,
+      "file": "ur-1.87.4-darwin-arm64.tar.gz",
+      "sha256": "98ba84ef59cc21d8fb6006fcd58ae307a7c73ebfdd65491d42bc42465079f37c",
+      "size": 55606960,
       "executable": "ur"
     },
     "darwin-x64": {
-      "file": "ur-1.87.3-darwin-x64.tar.gz",
-      "sha256": "5deb8012fb3eeacead75dffa4a78d168cb5937c5006655a41d735b3c3360d613",
-      "size": 58452855,
+      "file": "ur-1.87.4-darwin-x64.tar.gz",
+      "sha256": "180e1a6e871365b6adad5b0f1e6cfae9c00ecb10608da9626c4fa412ed133d07",
+      "size": 58468363,
       "executable": "ur"
     },
     "linux-arm64": {
-      "file": "ur-1.87.3-linux-arm64.tar.gz",
-      "sha256": "51873c365ba46b0d300d4a5f11722fc3ebb80622cbfb5907efb9e57e14e1fdb0",
-      "size": 74870262,
+      "file": "ur-1.87.4-linux-arm64.tar.gz",
+      "sha256": "5987a35ac0f520090043a5aa1b2d979d155fe2adb39c13a495078676f0041158",
+      "size": 74883219,
       "executable": "ur"
     },
     "linux-x64": {
-      "file": "ur-1.87.3-linux-x64.tar.gz",
-      "sha256": "64468f56479a95f09e76ce2a3be56a0ba50faa9d402d61fa184ef239aad19a01",
-      "size": 75208535,
+      "file": "ur-1.87.4-linux-x64.tar.gz",
+      "sha256": "17375913c4ce0307ef8e015897d7c5822f47d2ccab82817213d49e050fd44b3b",
+      "size": 75218440,
       "executable": "ur"
     }
   }
